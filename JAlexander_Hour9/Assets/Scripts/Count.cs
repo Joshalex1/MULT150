@@ -12,8 +12,14 @@ public class Count : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    { 
+  }
+
+    int count = 0;
+    void OnTriggerEnter(Collider other)
     {
-        int count = 0;
+        Debug.Log(other.gameObject.name + " has entered the cube");
+
         count++;
         Debug.Log("Total times :" + count);
     }

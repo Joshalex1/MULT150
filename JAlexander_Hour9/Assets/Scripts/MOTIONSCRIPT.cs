@@ -16,8 +16,8 @@ public class MOTIONSCRIPT : MonoBehaviour
         
 
        
-        float hVal = Input.GetAxis("Horizontal");
-        float vVal = Input.GetAxis("Vertical");
+        float hVal = Input.GetAxis("Horizontal")/20;
+        float vVal = Input.GetAxis("Vertical")/20;
         if (hVal != 0)
         {
            
