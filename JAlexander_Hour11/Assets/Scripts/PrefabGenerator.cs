@@ -9,9 +9,13 @@ public class PrefabGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 1; 1 <= 2; i++)
+       
+       
+        for (int i = 1; i <= 10; i++)
         {
-            Instantiate<GameObject>(prefab, new Vector3(1f, 0f, 0f), Quaternion.identity);
+            
+            Instantiate<GameObject>(prefab, new Vector3(1f*i, 0.7f, 0f), Quaternion.identity);
+            
         }
 
     }
