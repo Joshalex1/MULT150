@@ -40,6 +40,12 @@ The obstacles spawning in a line is pretty repetitive.
 The powerups sometimes spawn right next to eachother which makes it too easy to
 pick them up.
 
+Changes I made:
+Changed the obstacle to a helix and made it purple.
+I made the particle system on the powerup spaz out a little by tweaking the
+gravity.
+
+
 
 
 
